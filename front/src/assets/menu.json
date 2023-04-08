@@ -1,0 +1,67 @@
+[{
+    "text": "Inicio",
+    "icon": "dashboard",
+    "routerLink": "/"
+},
+{
+        "text": "Administración",
+        "icon": "inventory_2",
+        "children": [
+            {
+                "text": "Proveedores",
+                "icon": "supervised_user_circle",
+                "routerLink": "/suppliers"
+            },
+            {
+                "text": "Facturas",
+                "icon": "request_quote",
+                "routerLink": "/invoice"
+            },
+            {
+                "text": "Complemento de Pago",
+                "icon": "difference",
+                "routerLink": "/payment-supplement"
+            }
+        ]
+    },
+    {
+        "text": "Consultas",
+        "icon": "search",
+        "children": [{
+                "text": "Consulta de Facturas",
+                "icon": "article",
+                "routerLink": "/invoice-list"
+            },
+            {
+                "text": "Consulta de Pagos",
+                "icon": "paids",
+                "routerLink": "/payment-list"
+            },
+            {
+                "text": "Orden de Compra",
+                "icon": "receipt",
+                "routerLink": "/payment-order-list"
+            },
+            {
+                "text": "Documentos",
+                "icon": "description",
+                "routerLink": "/document-list"
+            },
+            {
+                "text": "Complemento de Pago",
+                "icon": "work_outline",
+                "routerLink": "/product/manage"
+            }
+        ]
+    },
+{
+    "text": "Perfil",
+    "icon": "people",
+    "routerLink": "/profile"
+},
+{
+    "text": "Cerrar Sesión",
+    "icon": "start",
+    "routerLink": "/logout"
+}
+]
